@@ -49,14 +49,18 @@ section {
   float: right;
 }
 
-section p,
 section h2 {
+  margin: 0;
+}
+
+section p {
   margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .wrapper div {
+  .section-letter,
+  .section-icon {
     padding: 0 1rem;
     width: 50%;
   }
